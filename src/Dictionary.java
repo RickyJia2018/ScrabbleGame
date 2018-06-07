@@ -14,7 +14,22 @@ public class Dictionary {
 		int index=0;
 		try(BufferedReader br = new BufferedReader(new FileReader(fileName))){
 			while((inputLine=br.readLine())!=null&&index<num) {
-				//
+				/*
+				 * for(i<array.length){
+				 * 用 str1.compareto(str2) <0 =0/ >0
+				 * 找到合适的位置
+				 * 	for(j=i; ;j++){
+				 * 	吧后面的每一个都往后移一个位置 如果超了array.length 创建一个新的array 把老的copy 
+				 * 		
+				 * 		
+				 * 	
+				 * 	}
+				 * }
+				 * 
+				 * 
+				 * 
+				 * 
+				 */
 				index++;
 				
 			}
